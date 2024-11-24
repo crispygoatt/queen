@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Graduate&family=Holtwood+One+SC&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sankofa+Display&display=swap");
+
+.header {
+  border: solid;
+  background-color: black;
+  color: white;
+  position: fixed;
+  min-width: 100%;
+  padding: 10px;
+  top: 0;
+}
+
+body {
+  background-color: #cacf85;
+  color: black;
+  font-family: "Radio Canada Big", sans-serif;
+}
+.queen {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px 50px 30px 50px;
+  border: solid;
+  align-items: center;
+}
+.queen a {
+  text-decoration: none;
+  color: black;
+}
+
+.imgqueen {
+  border-radius: 50% 0% 50% 0%;
+  display: flex;
+  align-items: center;
+}
+.freddie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px 50px 30px 50px;
+  border: solid;
+  text-decoration: none;
+}
+.freddie a {
+  text-decoration: none;
+  color: black;
+}
+.imgfreddie {
+  border-radius: 50% 50% 50% 0%;
+  margin: 10px;
+}
+.imgbrian {
+  border-radius: 50% 0% 50% 50%;
+  display: flex;
+  gap: 50px;
+}
+.briancompl {
+  display: flex;
+  flex-direction: row-reverse;
+  border: solid;
+  padding: 30px 50px 30px 50px;
+  justify-content: center;
+  align-items: center;
+}
+.briancompl a {
+  text-decoration: none;
+  color: black;
+}
+
+.brian {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  text-decoration: none;
+}
+.imgroger {
+  border-radius: 0% 50% 0% 50%;
+  margin: 10px;
+}
+.rogerges {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 50px;
+  border: solid;
+  padding: 30px 50px 30px 50px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.rogerges a {
+  text-decoration: none;
+  color: black;
+}
+
+.johnges {
+  display: flex;
+  border: solid;
+  padding: 30px 50px 30px 50px;
+  justify-content: center;
+  align-items: center;
+}
+.johnges a {
+  text-decoration: none;
+  color: black;
+}
+
+.imgjohn {
+  border-radius: 50% 50% 50% 50%;
+}
+
+.john {
+  margin: 10px;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+.videocontainer {
+  display: grid;
+}
+
+.video,
+.videocontent {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.videocontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.video iframe {
+  width: 100%;
+
+  /* video seitenverhältnis */
+  height: calc(100vw * 9 / 21);
+}
+.button {
+  background-color: red;
+  color: white;
+  text-decoration;
+  text-transform: uppercase;
+  border-radius: 25px;
+  background: red;
+  padding: 12px;
+  width: 12px;
+  height: 12px;
+  text-decoration: none;  
+  positoion: center;
+  
+}
+.button:hover {
+  background-color: red;
+  padding: 14px
+    
+}
+.webqueen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button2 {
+  background-color: red;
+  color: white;
+  text-decoration;
+  text-transform: uppercase;
+  border-radius: 10px;
+  background: red;
+  padding: 8px;
+  width: 5px;
+  height: 7px;
+  text-decoration: none;
+  
+}
+.button2:hover {
+  background-color: red;
+  padding: 9px;
+    
+}
